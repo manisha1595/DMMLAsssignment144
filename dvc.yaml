@@ -1,0 +1,7 @@
+stages:
+  track_metrics:
+    cmd: python my_script.py
+    deps:
+    - my_script.py
+    outs:
+    - metrics.json

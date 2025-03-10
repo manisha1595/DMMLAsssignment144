@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  track_metrics:
+    cmd: python my_script.py
+    deps:
+    - path: my_script.py
+      hash: md5
+      md5: e2bc2114750a1795f96334a59a117f68
+      size: 338
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: 8816532299b20b147e6271d7ea070058
+      size: 146
